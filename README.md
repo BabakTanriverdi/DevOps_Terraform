@@ -1,3 +1,6 @@
+<img src="terraform.webp">
+
+
 # 🚀 DevOps Terraform & Terragrunt Repository
 
 <p align="center">
