@@ -25,5 +25,5 @@ resource "aws_instance" "tf-ec2" {
 }
 
 resource "aws_s3_bucket" "tf-s3" {
-  bucket = "ogulcan-tf-bucket-13"
+  bucket = "babak-tf-bucket-13"
 }
