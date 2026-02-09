@@ -178,7 +178,7 @@ terraform destroy -auto-approve
 
 - Terraform is able to import existing infrastructure.
 
-- In this example, we have 1 Ubuntu EC2 instance in our AWS account and we want to import this resource to our infrastructure.
+- In this example, we have 1 AWS EC2 instance in our AWS account and we want to import this resource to our infrastructure.
 
 - Bringing existing infrastructure under Terraform's control involves five main steps:
   1. Identify the existing infrastructure to be imported.
@@ -187,7 +187,7 @@ terraform destroy -auto-approve
   4. Review the Terraform plan to ensure the configuration matches the expected state and infrastructure.
   5. Apply the configuration to update your Terraform state.
 
-- First, go to the AWS console and create an EC2 instance ami is `Ubuntu 24.04` and tag is `Name=ubuntu-24.04`.
+- First, go to the AWS console and create an EC2 instance ami is `ami-xxxxxxxxxxxx` and tag is `instance name`.
 
 - Create a folder named `terraform-import` and enter the directory.
 
